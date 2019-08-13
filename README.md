@@ -4,7 +4,7 @@ This repository contains scripts and notebooks to reproduce the experiments and 
 
 > Holger Trittenbach and Klemens Böhm. "Beyond Outlier Detection De-Constructed: One-Class Active Learning with Multiple Subspaces." Proceedings of the 28th ACM International Conference on Information and Knowledge Management. ACM, 2019.
 
-For more information about this research project, see also the [SubSVDD project website](https://www.ipd.kit.edu/subsvdd/).
+For more information about this research project, see also the [SubSVDD project website](https://www.ipd.kit.edu/mitarbeiter/subsvdd/).
 For a general overview and a benchmark on one-class active learning see the [OCAL project website](https://www.ipd.kit.edu/ocal/).
 
 ## Quick Start
@@ -17,7 +17,7 @@ The analysis and main results of the experiments can be found under [notebooks](
     * `evaluation-part2.ipynb`: Figure 6
     * `subspace_heatmap.ipynb`: Figure 3a
 
-To execute the notebooks, make sure you follow the [setup section](#setup), and [download the raw results](https://www.ipd.kit.edu/subsvdd/output.zip) into `data/output/`.
+To execute the notebooks, make sure you follow the [setup section](#setup), and [download the raw results](https://www.ipd.kit.edu/mitarbeiter/subsvdd/output.zip) into `data/output/`.
 
 ## Prerequisites
 
@@ -69,7 +69,7 @@ Each of the steps can be executed standalone, and takes a well-defined input, an
 The Section [Experiment Pipeline](#experiment-pipeline) describes each of the process steps.
 
 Running the benchmark is compute intensive and takes many CPU hours.
-Therefore, we also provide the [results to download](https://www.ipd.kit.edu/subsvdd/output.zip) (51 MB).
+Therefore, we also provide the [results to download](https://www.ipd.kit.edu/mitarbeiter/subsvdd/output.zip) (51 MB).
 This allows to analyze the results in the notebooks without having to run the whole pipeline.
 
 The code is licensed under a [MIT License](https://github.com/kit-dbis/ocal-evaluation/blob/master/LICENSE.md) and the result data under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
@@ -90,7 +90,7 @@ There are two types of config files:
    ```
    * **Output:** .csv files in `data/input/processed/noise`
 
-   We also provide our [preprocessed data to download](https://www.ipd.kit.edu/subsvdd/input.zip) (3 MB).
+   We also provide our [preprocessed data to download](https://www.ipd.kit.edu/mitarbeiter/subsvdd/input.zip) (3 MB).
 
 2. _Generate Experiments_: This step creates a set of experiments. Each experiment in this set is a specific combination of
     * `data set path` (e.g., "data/input/Annthyroid/Annthyroid_withoutdupl_norm_05_v01_r01.csv")

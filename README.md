@@ -2,7 +2,7 @@
 
 This repository contains scripts and notebooks to reproduce the experiments and analyses of the paper
 
-> Holger Trittenbach and Klemens Böhm. "Beyond Outlier Detection De-Constructed: One-Class Active Learning with Multiple Subspaces." Proceedings of the 28th ACM International Conference on Information and Knowledge Management. ACM, 2019.
+> Holger Trittenbach and Klemens Böhm. 2019. One-Class Active Learning for Outlier Detection with Multiple Subspaces. In The 28th ACM International Conference on Information and Knowledge Management (CIKM ’19), November 3--7, 2019, Beijing, China. ACM, New York, NY, USA, 10 pages. https://doi.org/10.1145/3357384.3357873
 
 For more information about this research project, see also the [SubSVDD project website](https://www.ipd.kit.edu/mitarbeiter/subsvdd/).
 For a general overview and a benchmark on one-class active learning see the [OCAL project website](https://www.ipd.kit.edu/ocal/).
